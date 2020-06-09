@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libjson">
+      <UniqueIdentifier>{0410ee33-7fc5-484a-a9b0-301a6a454776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{9afe3011-3cd3-4f7e-a4e7-77fe21b71c6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\libjson\allocator.h">
+      <Filter>libjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\libjson\assertions.h">
+      <Filter>libjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\libjson\autolink.h">
+      <Filter>libjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\libjson\config.h">
+      <Filter>libjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\libjson\features.h">
+      <Filter>libjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\libjson\forwards.h">
+      <Filter>libjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\libjson\json.h">
+      <Filter>libjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\libjson\json_tool.h">
+      <Filter>libjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\libjson\reader.h">
+      <Filter>libjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\libjson\value.h">
+      <Filter>libjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\libjson\version.h">
+      <Filter>libjson</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\libjson\writer.h">
+      <Filter>libjson</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\libjson\json_reader.cpp">
+      <Filter>libjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\libjson\json_value.cpp">
+      <Filter>libjson</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\libjson\json_writer.cpp">
+      <Filter>libjson</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\include\libjson\json_valueiterator.inl">
+      <Filter>libjson</Filter>
+    </None>
+  </ItemGroup>
+</Project>
